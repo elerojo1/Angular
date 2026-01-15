@@ -1,0 +1,13 @@
+<div>
+  <p>Nombre: {{ nombre }}</p>
+  <p>Edad: {{ edad }}</p>
+  <p>Activo: {{ Activo()}}</p>
+  <p>Ultimos tres sueldos: {{ ultimosTresSueldos }}</p>
+  <p>Total sueldos: {{ CalcularSueldos() }}</p>
+</div>
+<div>
+  <p>Total ultimos dos sueldos: {{ ultimosTresSueldos[0] + ultimosTresSueldos[1]}}</p>
+  <p>Años despues de 5: {{edad + 5 }}</p>
+  <p>Web: <a href="{{ link }}">https://www.google.com</a></p>
+</div>
+<router-outlet />
