@@ -1,0 +1,3 @@
+nvm list
+nvm use 22.13.1
+npx ng build --configuration=production
